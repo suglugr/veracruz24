@@ -22,10 +22,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
 :root {
   --r-background-color: #002b36;
   --r-main-font: Lato, sans-serif;
-  --r-main-font-size: 20px;
+  --r-main-font-size: 30px;
   --r-main-color: #93a1a1;
   --r-block-margin: 18px;
-  --r-heading-margin: 0 0 18px 0;
+  --r-heading-margin: 0 0 18px 0.5;
   --r-heading-font: League Gothic, Impact, sans-serif;
   --r-heading-color: #eee8d5;
   --r-heading-line-height: 1.2;
@@ -34,10 +34,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-heading-text-shadow: none;
   --r-heading-font-weight: normal;
   --r-heading1-text-shadow: none;
-  --r-heading1-size: 3.77em;
-  --r-heading2-size: 2.11em;
-  --r-heading3-size: 1.55em;
-  --r-heading4-size: 1.05em;
+  --r-heading1-size: 1.77em;
+  --r-heading2-size: 1.11em;
+  --r-heading3-size: 0.55em;
+  --r-heading4-size: 0.05em;
   --r-code-font: monospace;
   --r-link-color: #268bd2;
   --r-link-color-dark: #1a6091;
@@ -49,8 +49,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal-viewport {
   background: #002b36;
   background-color: var(--r-background-color);
-  background: radial-gradient(farthest-corner at 40px 40px, #0b1e43 0%, #1342c1 100%);
+  background: radial-gradient(farthest-corner at 40px 40px, #0754c9 0%, #173e31 100%);
   background-size: 300% 300%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 10s ease infinite;
 }
 @keyframes AnimationName {
@@ -58,7 +60,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     background-position: 0% 50%;
   }
   50% {
-    background-position: 0% 100%;
+    background-position: 100% 50%;
   }
   100% {
     background-position: 0% 50%;

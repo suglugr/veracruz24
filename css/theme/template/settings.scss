@@ -6,14 +6,14 @@ $backgroundColor: #2b2b2b;
 
 // Primary/body text
 $mainFont: 'Lato', sans-serif;
-$mainFontSize: 40px;
+$mainFontSize: 30px;
 $mainColor: #eee;
 
 // Vertical spacing between blocks of text
 $blockMargin: 18px;
 
 // Headings
-$headingMargin: 0 0 $blockMargin 0;
+$headingMargin: 0 0 $blockMargin 0.5;
 $headingFont: 'League Gothic', Impact, sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 1.2;
@@ -23,10 +23,11 @@ $headingTextShadow: none;
 $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
 
-$heading1Size: 3.77em;
-$heading2Size: 2.11em;
-$heading3Size: 1.55em;
-$heading4Size: 1.05em;
+
+$heading1Size: 1.77em;
+$heading2Size: 1.11em;
+$heading3Size: 0.55em;
+$heading4Size: 0.05em;
 
 $codeFont: monospace;
 

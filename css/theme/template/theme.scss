@@ -14,17 +14,19 @@
 
 	background: radial-gradient(
 		farthest-corner at 40px 40px,
-		rgb(11, 30, 67) 0%,
-		rgb(19, 66, 193) 100%
+		rgb(7, 84, 201) 0%,
+		rgb(23, 62, 49) 100%
 	  );
 	
     background-size: 300% 300%;
 	
+		-webkit-animation: AnimationName 30s ease infinite;
+		-moz-animation: AnimationName 30s ease infinite;
 		animation: AnimationName 10s ease infinite;
 
 		@keyframes AnimationName {
 			0%{background-position:0% 50%}
-			50%{background-position:0% 100%}
+			50%{background-position:100% 50%}
 			100%{background-position:0% 50%}
 		}
 
