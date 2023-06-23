@@ -41,43 +41,19 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal-viewport {
   background: #fff;
   background-color: var(--r-background-color);
-  background: linear-gradient(45deg, #000000, #0b205d, #151618);
-  background-size: 600% 600%;
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 58% 0%;
-  }
-  50% {
-    background-position: 43% 100%;
-  }
-  100% {
-    background-position: 58% 0%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 58% 0%;
-  }
-  50% {
-    background-position: 43% 100%;
-  }
-  100% {
-    background-position: 58% 0%;
-  }
+  background: radial-gradient(farthest-corner at 40px 40px, #0b1e43 0%, #1342c1 100%);
+  background-size: 300% 300%;
+  animation: AnimationName 10s ease infinite;
 }
 @keyframes AnimationName {
   0% {
-    background-position: 58% 0%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 43% 100%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 58% 0%;
+    background-position: 0% 50%;
   }
 }
 
