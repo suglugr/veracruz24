@@ -20,10 +20,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
 :root {
   --r-background-color: #222;
   --r-main-font: Ubuntu, sans-serif;
-  --r-main-font-size: 10px;
+  --r-main-font-size: 20px;
   --r-main-color: #eee;
-  --r-block-margin: 20px;
-  --r-heading-margin: 0 0 20px 0;
+  --r-block-margin: 18px;
+  --r-heading-margin: 0 0 18px 0;
   --r-heading-font: Ubuntu, sans-serif;
   --r-heading-color: #eee;
   --r-heading-line-height: 1.2;
@@ -32,10 +32,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-heading-text-shadow: 2px 2px 2px #222;
   --r-heading-font-weight: normal;
   --r-heading1-text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
-  --r-heading1-size: 2.77em;
-  --r-heading2-size: 1.11em;
-  --r-heading3-size: 0.55em;
-  --r-heading4-size: 0.05em;
+  --r-heading1-size: 3.77em;
+  --r-heading2-size: 2.11em;
+  --r-heading3-size: 1.55em;
+  --r-heading4-size: 1.05em;
   --r-code-font: monospace;
   --r-link-color: #a23;
   --r-link-color-dark: #6a1520;
@@ -47,6 +47,44 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal-viewport {
   background: #222;
   background-color: var(--r-background-color);
+  background: linear-gradient(45deg, #000000, #0b205d, #151618);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 58% 0%;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 58% 0%;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 58% 0%;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0%;
+  }
 }
 
 .reveal {
